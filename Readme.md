@@ -181,4 +181,4 @@ brew-and-bean/
 
 ---
 
-**Built with ❤️ by [RTanisha](https://github.com/tanisha1707) | © 2025 Brew & Bean**
+**Built with ❤️ by [Tanisha Dhakad](https://github.com/tanisha1707) | © 2025 Brew & Bean**
