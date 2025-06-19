@@ -61,23 +61,24 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center space-x-4">
+            {/* Theme Toggle Button */}
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-              className="hover:bg-amber-500/20 hover:text-amber-400 transition-all duration-300 hover:scale-110"
+              className="text-white hover:bg-amber-500/20 hover:text-amber-400 transition-all duration-300 hover:scale-110"
             >
-              {theme === "light" ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
+              {theme === "light" ? <Sun className="h-6 w-6 text-white" /> : <Moon className="h-6 w-6 text-white" />}
             </Button>
 
             {/* Mobile menu button */}
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden hover:bg-amber-500/20 transition-all duration-300"
+              className="md:hidden text-white hover:bg-amber-500/20 hover:text-amber-400 transition-all duration-300 hover:scale-110"
               onClick={() => setIsOpen(!isOpen)}
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? <X className="h-6 w-6 text-white" /> : <Menu className="h-6 w-6 text-white" />}
             </Button>
           </div>
         </div>
