@@ -64,10 +64,10 @@ export function Navigation() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               className="hover:bg-amber-500/20 hover:text-amber-400 transition-all duration-300 hover:scale-110"
             >
-              {theme === "dark" ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
+              {theme === "light" ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
             </Button>
 
             {/* Mobile menu button */}
